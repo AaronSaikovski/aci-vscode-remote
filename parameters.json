@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "name": {
+      "value": "codeserver-remote"
+    },
+    "image": {
+      "value": "ghcr.io/linuxserver/code-server"
+    },
+    "cpuCores": {
+      "value": "2"
+    },
+    "memoryInGb": {
+      "value": "2"
+    },
+    "port": {
+      "value": "8443"
+    }
+  }
+}
+
